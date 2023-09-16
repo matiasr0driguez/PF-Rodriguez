@@ -1,0 +1,518 @@
+*
+    margin: 0
+    padding: 0
+    font-family: 'Mukta', sans-serif
+    font-family: 'Anton', sans-serif
+    font-family: 'Mukta', sans-serif
+    font-family: 'Tilt Prism', cursive
+main
+    background-color: black
+header
+    background-color: black
+    padding-bottom: 60px
+    nav
+        ul
+            display: flex
+            justify-content: center
+            li
+                margin-top: 30px
+                margin-left: 26%
+                margin-right: 26%
+                list-style: none
+                a
+                    text-decoration-line: none
+                    h2
+                        font-size: 35px
+                        color: gold
+                        text-decoration: none
+                        font-family: 'Anton', sans-serif
+                    .link
+                        border: 5px solid 
+a
+    text-decoration-line: none
+    h1
+        color: #FA6000
+        background-color: black
+        text-align: center
+        font-size: 110px
+        font-family: 'Tilt Prism'
+    h1:hover
+        text-decoration: underline
+/*pginas 1 2 3*/
+.grid-container 
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-gap: 50px
+    background-color: #dadada
+    padding: 80px
+    justify-items: center
+    margin: 0 auto
+    .grid-item 
+        background-color: #ff7b0093
+        font-size: 20px
+        margin: 0px
+        border: 5px solid
+        height: 1050px
+        width: 500px
+        border-radius: 15px
+        box-shadow: 10px 10px 10px black
+        a
+            color: black
+            text-decoration-color: none
+            text-align: center
+h2
+    font-size: 40px
+    font-family: 'Tilt Prism'
+h2:hover
+    font-size: 50px
+    text-decoration: underline
+h3
+    font-size: 30px
+    font-family: 'Anton', sans-serif
+    text-align: center
+    color: #696969
+    text-decoration: underline
+dl
+    dd
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        text-align: center
+footer
+    background-color: black
+    width: 100%
+    height: 200px
+    margin-top: -30px
+    div
+        ul
+            display: flex
+            justify-content: center
+            margin-top: 20px
+            padding-top: 70px
+            li
+                font-size: 40px
+                list-style: none
+                padding: 30px
+                a
+                    color: white
+                a:hover
+                    color: blueviolet
+                    i
+                        font-family: Arial, Helvetica, sans-serif
+                    i:hover 
+                        color: blueviolet
+/*Top*/
+.div-container
+    background-color:  #b9b9b9
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 50px
+    .top
+        h2
+            font-size: 70px
+            text-align: center
+            color: black
+            border: 1px solid
+            margin-bottom: 64px
+            border-radius: 10px
+            padding: 20px
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    .top1
+        padding: 60px
+        text-align: center
+        #oro:hover
+            color: gold
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            text-decoration: underline
+    .top2
+        padding: 50px
+        #plata:hover
+            color: grey
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            text-decoration: underline
+    .top3
+        padding: 50px
+        #bronce:hover
+            color: #d44e00
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            text-decoration: underline
+    .tamaño-img
+        align-items: center
+        height: 550px
+        width: 450px
+    .tamaño-img:hover
+        transform: scale(1.2)
+/*Recomendaciones*/
+#fondo-reco
+    text-align: center
+    padding: 80px
+    background-color: #a3a3a39f
+    .reco-container
+        display: flex
+        flex-direction: column
+        padding: 50px
+        align-items: center
+        a
+            color: black
+            h4
+                font-size: 35px
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            h4:hover
+                font-size: 45px
+                text-decoration: underline
+                color: gold
+                border: 2px solid
+                padding: 5px
+        #portada-reco
+            margin-top: 50px
+            height: 600px
+            width: 500px
+            align-items: center
+        #portada-reco:hover
+            transform: scale(1.2)
+    /*@ media Inicio*/     
+@media (max-width: 1790px)
+    .grid-container
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        padding: 0px
+        padding-top: 100px
+        padding-bottom: 50px
+        .grid-item
+            width: 700px
+            height: 1650px
+            margin: 0
+    h2
+        font-size: 80px
+    h2:hover
+        font-size: 100px
+    h3
+        font-size: 45px
+    dd
+        font-size: 30px
+@media (max-width: 1570px)
+    .grid-container
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        padding: 10px
+        padding-top: 90px
+        padding-bottom: 50px
+        .grid-item
+            width: 800px
+            height: 1450px
+@media (max-width: 960px)
+    header
+        nav
+            ul
+                display: flex
+                flex-direction: column
+                align-items: center
+                li
+                    a
+                        h2
+                            font-size: 50px
+    .grid-container
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        .grid-item
+            width: 650px
+            height: 1100px
+    h2
+        font-size: 70px
+    h2:hover
+        font-size: 80px
+    h3
+        font-size: 40px
+    dd
+        font-size: 21px
+@media (max-width: 790px)
+    header
+        nav
+            ul
+                display: flex
+                flex-direction: column
+                align-items: center
+                li
+                    a
+                        h2
+                            font-size: 40px
+    .grid-container
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        .grid-item
+            width: 540px
+            height: 1200px
+    h2
+        font-size: 60px
+    h2:hover
+        font-size: 75px
+    h3
+        font-size: 30px
+    dd
+        font-size: 22px
+@media (max-width:670px)
+    header
+        nav
+            ul
+                display: flex
+                flex-direction: column
+                align-items: center
+                li
+                    a
+                        h2
+                            font-size: 35px
+    a
+        text-decoration-line: none
+        h1
+            color: #FA6000
+            background-color: black
+            text-align: center
+            font-size: 65px
+            font-family: 'Tilt Prism'
+    .grid-container
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        .grid-item
+            width: 380px
+            height: 1250px
+    h2
+        font-size: 40px
+    h2:hover
+        font-size: 45px
+    h3
+        font-size: 30px
+    dd
+        font-size: 20px
+    /*Top*/
+    .div-container
+        background-color:  #b9b9b9
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 50px
+        .top
+            h2
+                font-size: 70px
+                text-align: center
+                color: black
+                border: 1px solid
+                margin-bottom: 64px
+                border-radius: 10px
+                padding: 20px
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        .top1
+            padding: 60px
+            text-align: center
+            #oro:hover
+                color: gold
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                text-decoration: underline
+        .top2
+            padding: 50px
+            #plata:hover
+                color: grey
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                text-decoration: underline
+        .top3
+            padding: 70px
+            align-content: center
+            #bronce:hover
+                color: #d44e00
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                text-decoration: underline
+        .tamaño-img
+            align-items: center
+            height: 380px
+            width: 260px
+            margin-left: 30px
+        .tamaño-img:hover
+            transform: scale(1.2)
+    /*Recomendaciones*/
+    #fondo-reco
+        text-align: center
+        padding: 20px
+        background-color: #a3a3a39f
+        .reco-container
+            display: flex
+            flex-direction: column
+            padding: 10px
+            padding-bottom: 30px
+            align-items: center
+            a
+                color: black
+                h4
+                    font-size: 15px
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+                    padding-bottom: 15px
+                h4:hover
+                    font-size: 25px
+                    text-decoration: underline
+                    color: gold
+                    border: 2px solid
+                    padding: 5px
+            #portada-reco
+                margin-top: 50px
+                height: 300px
+                width: 250px
+                align-items: center
+            #portada-reco:hover
+                transform: scale(1.2)
+    footer
+        background-color: black
+        width: 100%
+        height: 200px
+        margin-top: -30px
+        div
+            ul
+                display: flex
+                justify-content: center
+                margin-top: 20px
+                padding-top: 70px
+                flex-direction: column
+                align-items: center
+                li
+                    font-size: 30px
+                    list-style: none
+                    padding: 10px
+                    a
+                        color: white
+                    a:hover
+                        color: blueviolet
+                        i
+                            font-family: Arial, Helvetica, sans-serif
+                        i:hover 
+                            color: blueviolet
+@media (max-width: 440px)
+    header
+        nav
+            ul
+                display: flex
+                flex-direction: column
+                align-items: center
+                li
+                    a
+                        h2
+                            font-size: 25px
+    a
+        text-decoration-line: none
+        h1
+            color: #FA6000
+            background-color: black
+            text-align: center
+            font-size: 50px
+            font-family: 'Tilt Prism'
+    .grid-container
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        padding-top: 20px
+        .grid-item
+            width: 250px
+            height: 1600px
+    h2
+        font-size: 35px
+    h2:hover
+        font-size: 40px
+    h3
+        font-size: 20px
+    dd
+        font-size: 18px
+    /*Top*/
+    .div-container
+        background-color:  #b9b9b9
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 10px
+        .top
+            h2
+                font-size: 20px
+                text-align: center
+                color: black
+                border: 1px solid
+                margin-bottom: 64px
+                border-radius: 10px
+                padding: 10px
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        .top1
+            padding: 20px
+            text-align: center
+            #oro:hover
+                color: gold
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                text-decoration: underline
+        .top2
+            padding: 20px
+            #plata:hover
+                color: grey
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                text-decoration: underline
+        .top3
+            padding: 20px
+            #bronce:hover
+                color: #d44e00
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                text-decoration: underline
+        .tamaño-img
+            align-items: center
+            height: 220px
+            width: 180px
+            padding-bottom: 10px
+        .tamaño-img:hover
+            transform: scale(1.2)
+@media (max-width: 299px)
+    header
+        nav
+            ul
+                display: flex
+                flex-direction: column
+                align-items: center
+                li
+                    a
+                        h2
+                            font-size: 10px
+    a
+        text-decoration-line: none
+        h1
+            color: #FA6000
+            background-color: black
+            text-align: center
+            font-size: 20px
+            font-family: 'Tilt Prism'
+    .grid-container
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        .grid-item
+            width: 150px
+            height: 1250px
+    h2
+        font-size: 14px
+    h2:hover
+        font-size: 20px
+    h3
+        font-size: 15px
+    dd
+        font-size: 6px
+    footer
+        background-color: black
+        width: 100%
+        height: 200px
+        margin-top: -30px
+        div
+            ul
+                display: flex
+                justify-content: center
+                margin-top: 20px
+                padding-top: 70px
+                flex-direction: column
+                align-items: center
+                li
+                    font-size: 20px
+                    list-style: none
+                    padding: 10px
+                    a
+                        color: white
+                    a:hover
+                        color: blueviolet
+                        i
+                            font-family: Arial, Helvetica, sans-serif
+                        i:hover 
+                            color: blueviolet
